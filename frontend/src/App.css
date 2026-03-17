@@ -1,0 +1,36 @@
+.container {
+  width: 400px;
+  margin: 40px auto;
+  font-family: Arial;
+}
+
+.task-input {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+}
+
+button {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.task-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
